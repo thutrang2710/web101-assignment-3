@@ -1,0 +1,18 @@
+@media (max-width: 767px) {
+  #banner {
+    height: 220px;
+  }
+
+  #nav-bar .info {
+    width: 8%;
+  }
+
+  /* .img-profile {
+    display: none;
+  } */
+
+  #target,
+  #personal-info {
+    padding-left: 40px;
+  }
+}

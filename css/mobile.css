@@ -1,0 +1,41 @@
+@media (max-width: 575px) {
+  #banner {
+    height: 250px;
+  }
+
+  .avatar {
+    width: auto;
+    height: auto;
+    max-width: unset;
+    transform: translate(-38%, -13%);
+  }
+
+  #nav-bar > .container {
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    padding: 30px;
+    border: unset;
+  }
+
+  #nav-bar > .container a {
+    border: unset;
+    padding: 10px;
+  }
+
+  .centered {
+    width: 300px;
+  }
+
+  #about > .container {
+    grid-template-columns: 100%;
+  }
+
+  #target,
+  #personal-info {
+    padding-left: 20px;
+  }
+
+  .borderright {
+    border-right: unset;
+  }
+}
